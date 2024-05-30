@@ -4,6 +4,8 @@
 # uspvdbr
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/andypicke/uspvdbr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/andypicke/uspvdbr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of uspvdbr is to provide API wrapper for USPVDB
