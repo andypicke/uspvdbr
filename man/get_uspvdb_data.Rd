@@ -4,10 +4,10 @@
 \alias{get_uspvdb_data}
 \title{Get USPVDB data}
 \usage{
-get_uspvdb_data(wh_state)
+get_uspvdb_data(wh_state = "all")
 }
 \arguments{
-\item{wh_state}{State to get data for}
+\item{wh_state}{State to get data for (default is "all")}
 }
 \value{
 df Dataframe of requested data from USPVDB API

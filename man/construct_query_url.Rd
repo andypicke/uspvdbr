@@ -4,10 +4,10 @@
 \alias{construct_query_url}
 \title{Build url query}
 \usage{
-construct_query_url(wh_state)
+construct_query_url(wh_state = "all")
 }
 \arguments{
-\item{wh_state}{State}
+\item{wh_state}{State to return data for (default is "all")}
 }
 \value{
 request_url: query url
