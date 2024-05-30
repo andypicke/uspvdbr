@@ -10,7 +10,7 @@ construct_query_url(wh_state)
 \item{wh_state}{State}
 }
 \value{
-query url
+request_url: query url
 }
 \description{
 Build url query

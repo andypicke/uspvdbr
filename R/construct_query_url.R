@@ -1,6 +1,6 @@
 #' Build url query
 #' @param wh_state State
-#' @returns query url
+#' @returns request_url: query url
 #' @export
 
 construct_query_url <- function(wh_state){
@@ -23,9 +23,5 @@ construct_query_url <- function(wh_state){
   #param_str <- ""
   #request_url <- paste0(base_url, endpoint)
   request_url <- paste0(base_url, endpoint, param_str)
-
-  resp <- httr::GET(request_url)
-
-  dat <- jsonlite::fromJSON(httr::content(resp, as = "text", encoding = "UTF-8"))
 
 }
